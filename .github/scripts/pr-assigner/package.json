@@ -1,7 +1,6 @@
 {
   "name": "pr-assigner",
   "version": "1.0.0",
-  "type": "module",
   "dependencies": {
     "@octokit/core": "^5.0.0",
     "node-fetch": "^2.6.11",
