@@ -21,7 +21,7 @@ jobs:
         run: npm install yaml node-fetch@2
 
       - name: Run reviewer assignment
-        run: node ./scripts/assign_reviewers.js
+        run: node ./.github/scripts/assign_reviewers.js
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
